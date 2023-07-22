@@ -361,4 +361,5 @@ MigrationBackup/
 .ionide/
 
 # Fody - auto-generated XML schema
-FodyWeavers.xsd
+/2023_C_Study/2023_C_Study.vcxproj.filters
+/2023_C_Study/2023_C_Study.vcxproj
