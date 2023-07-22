@@ -1,4 +1,6 @@
-#include <stdio.h>
+/*
+1. for문을 사용하여 입력값을 받으면 다음과 같은 결과가 나오게 하세요.
+*/#include <stdio.h>
 int main() {
 	int num;
 	printf("입력: ");

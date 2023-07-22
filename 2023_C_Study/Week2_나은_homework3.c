@@ -3,13 +3,6 @@
 */
 #include <stdio.h>
 
-//int main() {
-//	for (int num = 0; num < 3; num++) {
-//		printf("hi \n");
-//	}
-//	
-//}
-
 int main() {
 	int num = 0;
 	while (num < 3) {

@@ -1,7 +1,7 @@
-#include <stdio.h>
 /*
 1. while, swich/case문을 이용하여 다음과 같은 결과가 출력되게 하세요.
 */
+#include <stdio.h>
 int main(void) {
 	int num;
 	while (1) {

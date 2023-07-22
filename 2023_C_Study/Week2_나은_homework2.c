@@ -2,6 +2,7 @@
 2. 아래와 같이 출력되는 add함수를 구현하세요.
 */
 #include <stdio.h>
+
 int add(int num1, int num2) {
 	return num1 + num2;
 }
