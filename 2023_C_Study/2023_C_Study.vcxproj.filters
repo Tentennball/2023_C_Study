@@ -24,5 +24,8 @@
     <ClCompile Include="Week1_혜진_quiz.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\소스.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
