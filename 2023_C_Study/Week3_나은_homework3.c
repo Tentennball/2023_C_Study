@@ -1,5 +1,5 @@
 /*
-3.a와 b의 값을 입력받으면 a와 b의 값을 바꾸는 swap함수를 구현하세요.
+3. a와 b의 값을 입력받으면 a와 b의 값을 바꾸는 swap함수를 구현하세요.
 */
 #include <stdio.h>
 int swap(int * a,int * b) {
