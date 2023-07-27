@@ -9,7 +9,8 @@
 *.user
 *.userosscache
 *.sln.docstates
-
+*.vcxproj
+*.vcxproj.filters
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -360,6 +361,8 @@ MigrationBackup/
 .ionide/
 
 # Fody - auto-generated XML schema
-FodyWeavers.xsd
 /2023_C_Study/2023_C_Study.vcxproj
 /2023_C_Study/2023_C_Study.vcxproj.filters
+=======
+/2023_C_Study/2023_C_Study.vcxproj.filters
+/2023_C_Study/2023_C_Study.vcxproj
