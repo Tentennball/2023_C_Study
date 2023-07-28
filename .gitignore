@@ -361,5 +361,8 @@ MigrationBackup/
 .ionide/
 
 # Fody - auto-generated XML schema
+/2023_C_Study/2023_C_Study.vcxproj
+/2023_C_Study/2023_C_Study.vcxproj.filters
+=======
 /2023_C_Study/2023_C_Study.vcxproj.filters
 /2023_C_Study/2023_C_Study.vcxproj
