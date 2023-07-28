@@ -8,9 +8,6 @@ int length(char arr[]) {
 		if (arr[i] != NULL) {
 			sum += 1;
 		}
-		else {
-			break;
-		}
 	}
 	return sum;
 }
