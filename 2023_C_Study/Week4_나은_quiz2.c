@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
 	int snail[5][5];
-	int row=0, col=-1 ,k=1, sw = 1, end=4;
+	int row = 0, col = -1 ,k = 1, sw = 1, end = 4;
 	while (end >= 0) {
 		for (int i = 0; i < end+1; i++) {
 			col += sw;
