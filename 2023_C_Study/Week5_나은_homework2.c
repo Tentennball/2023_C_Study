@@ -1,3 +1,6 @@
+/*
+2.  책에 나오는 person 구조체를 만들고 사용해보세요.
+*/
 #include <stdio.h>
 struct person {
 	char name[100];
@@ -11,17 +14,7 @@ int main() {
 		{"소방관 아저씨", "119", 26},
 		{"학폭신고", "117", 27}
 	};
-	//struct person arr[3];
 
-	//for (int i = 0; i < 3; i++) {
-	//	printf("이름 : ");
-	//	scanf_s("%s", arr[i].name);
-	//	printf("번호 : ");
-	//	scanf_s("%s ", arr[i].phonenum);
-	//	printf("나이 : ");
-	//	scanf_s("%d",&arr[i].age);
-	//}
-	
 	for (int j = 0; j < 3; j++) {
 		printf("%s %s %d\n", arr[j].name, arr[j].phonenum, arr[j].age);
 	}
