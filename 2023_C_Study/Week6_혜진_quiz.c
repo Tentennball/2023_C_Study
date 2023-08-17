@@ -7,7 +7,6 @@ Q. word.txt의 파일의 첫번째줄의 다섯번째 단어를 word2.txt에다가 쓰세요.(fseek써�
 
 int main(void) {
 	char str[BUF_SIZE];
-	char* ptr = &str;
 
 	FILE* fp;
 	fopen_s(&fp,"word.txt", "rt");
