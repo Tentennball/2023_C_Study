@@ -12,12 +12,12 @@ typedef struct node {
     struct node* next;
 } Node;
 
-Node* head = NULL;
-
 int main(void) {
     while (1) {
         int num, input, index, data1, data2;
-        Node* cur = head;
+        Node* head = NULL;
+        Node* cur = NULL;
+        Node* cur_prev = NULL;
         printf("1. 추가 2. 삭제 3. 수정 4. 출력 5. 종료\n입력 : ");
         scanf_s("%d", &num);
 
@@ -52,7 +52,7 @@ int main(void) {
                 break;
             }
             int search = 0;  
-            Node* cur_prev = NULL; 
+
             cur = head;  
             while (cur != NULL){
                 if (cur->val == index){
@@ -76,7 +76,7 @@ int main(void) {
                 printf("%d를 찾을 수 없습니다.\n", index);
             }
             break;
-        case 3:
+        case 3:   // 5 4 3 2 1
             printf("수정할 원래 데이터를 입력하세요 : \n");
             scanf_s("%d", &data1);
             printf("수정할 데이터의 값을 입력하세요 : \n");
@@ -86,14 +86,13 @@ int main(void) {
                 break;
 
             int search2 = 0;
-            Node* cur_prev2 = NULL;
             cur = head;
             while (cur != NULL) {
                 if (cur->val == data1) {
                     search2 = 1;
                     break;
                 }
-                cur_prev2 = cur;
+                cur_prev = cur;
                 cur = cur->next;
             }
             if (search2 == 1) {
@@ -106,7 +105,7 @@ int main(void) {
             break;
         case 4:
             printf("연결리스트 출력 : ");
-            Node* cur = head;
+            cur = head;
             while (cur != NULL){
                 printf("%d ", cur->val);
                 cur = cur->next;
@@ -114,7 +113,7 @@ int main(void) {
             puts("");
             break;
         case 5:
-            return;
+            return 0;
         default:       
             printf("!! 1부터 5사이의 수를 입력하세요 !!\n");
         }
