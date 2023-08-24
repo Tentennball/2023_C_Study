@@ -1,3 +1,7 @@
+//1.다음 요구사항을 만족하는 프로그램을 만드세요.
+//1) 뒤에서 부터 앞으로 추가하는 연결 리스트 설계 및 출력
+//2) 생성/수정/삭제 구현
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -10,16 +14,6 @@ Node* head = NULL;
 Node* tail = NULL;
 
 void print(Node* head);
-
-void print(Node* head) {
-Node* cur = head;
-int i = 0;
-while (cur != NULL) {
-	i++;
-	printf("%d : %d \n", i, cur->val);
-	cur = cur->next;
-}
-}
 
 int main() {
 	int index, index2, new_data,num,i;
@@ -111,5 +105,13 @@ int main() {
 	}
 }
 
-
+void print(Node* head) {
+	Node* cur = head;
+	int i = 0;
+	while (cur != NULL) {
+		i++;
+		printf("%d : %d \n", i, cur->val);
+		cur = cur->next;
+	}
+}
 
